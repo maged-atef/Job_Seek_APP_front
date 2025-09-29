@@ -13,7 +13,7 @@ login_page.addEventListener("click", (e) => {
     if (user_current_state === "login") {
         return alert("logged")
     } else {
-        location.href = "./pages/login.html"
+        location.href = "https://maged-atef.github.io/Job_Seek_APP_front/pages/login.html"
     }
 })
 register.addEventListener("click",(e)=>{
@@ -21,13 +21,13 @@ register.addEventListener("click",(e)=>{
     if(user_current_state == "login"){
       return   alert("you already logged in ")
     }else { 
-        location.href= "./pages/register.html"
+        location.href= "https://maged-atef.github.io/Job_Seek_APP_front/pages/register.html"
     }
 })
 logout.addEventListener("click", (e) => {
     e.preventDefault();
     localStorage.setItem("user_status", JSON.stringify("logout"))
-    location.href ="./pages/login.html"
+    location.href ="https://maged-atef.github.io/Job_Seek_APP_front/pages/login.html"
 })
 
 
