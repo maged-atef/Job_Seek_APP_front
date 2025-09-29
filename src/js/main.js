@@ -13,7 +13,7 @@ login_page.addEventListener("click", (e) => {
     if (user_current_state === "login") {
         return alert("logged")
     } else {
-        location.href = "../../pages/login.html"
+        location.href = "../pages/login.html"
     }
 })
 register.addEventListener("click",(e)=>{
@@ -27,7 +27,7 @@ register.addEventListener("click",(e)=>{
 logout.addEventListener("click", (e) => {
     e.preventDefault();
     localStorage.setItem("user_status", JSON.stringify("logout"))
-    location.href ="http://127.0.0.1:5501/pages/login.html"
+    location.href ="../pages/login.html"
 })
 
 
