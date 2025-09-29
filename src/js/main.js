@@ -1,4 +1,4 @@
-const user_current_state = JSON.parse(localStorage.getItem("user_status"));
+const user_current_state = JSON.parse(localStorage.getItem("user_status"))||null;
 console.log({ userLoged: user_current_state })
 
 const login_page = document.getElementById("login")
