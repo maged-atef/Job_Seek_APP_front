@@ -2,7 +2,7 @@ const email_input = document.getElementById("email")
 const password_input = document.getElementById("password")
 const login_btn = document.getElementById("login_btn")
 
-const login_api = "http://localhost:3000/user/login"
+const login_api = "https://job-seek-app-back.vercel.app//user/login"
 const localhost ="http://127.0.0.1:5501"
   function login() {
     if (password_input.value.trim() ==="" || email_input.value.trim() ==="") {

@@ -7,7 +7,7 @@ const register_btn = document.getElementById("register_btn")
 const email_input = document.getElementById("email")
 const password_input = document.getElementById("password")
 
-const new_user_api = "http://localhost:3000/user/signup"
+const new_user_api = "https://job-seek-app-back.vercel.app//user/signup"
 
 function register_newuser() {
     console.log("register hit")
